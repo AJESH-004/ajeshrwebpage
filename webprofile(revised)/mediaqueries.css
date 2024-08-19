@@ -1,0 +1,714 @@
+@media  screen and (min-width:1300px) and (max-width:1441px) {
+    body{
+        background-color: lightgrey;
+        position: relative;
+        height: 3440px;
+    }
+    
+    /* about */
+    #about{
+        position: absolute;
+        z-index: 2;
+        top: 0%;
+        left: 0;
+        margin: 260px 0px 40px 55px;
+        font-family: 'Press Start 2P';
+        color: white;
+        text-shadow: 1px 1px 3px black;
+        -webkit-text-stroke: 0.4567px rgb(75, 28, 28);
+        
+    }
+    /* screen 2 */
+    .overlaytags{
+        position: absolute;
+        z-index: 101;
+        top: 29.5%;
+        left: 40%;
+        color: white;
+        font-size: 40px;
+        -webkit-text-stroke: 1.2px black;
+        text-shadow: 2px 2px 7px black;
+        font-family: 'Press start 2p';
+    }
+
+    #screen{
+        position: absolute;
+        top: 28.8%;
+        left: 38%;
+        width: 36.5%;
+        height: 12.7%;
+        border-radius: 20px;
+    }
+
+    /* screen 3 */
+
+    #pdivs{
+        position: absolute;
+        display: flex;
+        width: 35%;
+        justify-content: space-between;
+        top: 58%;
+        left: 11%;
+        font-size: 50px;
+        font-family: 'press start 2p';
+        color: #BC13FE;
+        -webkit-text-stroke: 2px black;
+        text-shadow: 7px 5px 2px black;
+    }
+    #buttondiv{
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        top: 70%;
+        left: 12.5%;
+        width: 34%;
+    }
+    #buttondiv button{
+        width: 80px;
+        height: 70px;
+        border: 1px solid black;
+        background-color: transparent;
+        color: white;
+        font-family: 'press start 2p';
+        font-size: 20px;
+        text-shadow: 3px 3px 6px black;
+    }
+    #buttondiv button:hover{
+        width: 80px;
+        height: 70px;
+        background-color:#720d75 ;
+        color:white;
+        font-family: 'press start 2p';
+        font-size: 20px;
+        text-shadow: 1px 1px 3px black;
+    }
+    
+    /* screen 4 */
+    #contactinfos{
+        position: absolute;
+        top: 82%;
+        left: 17%;
+        color: transparent;
+        -webkit-text-stroke:2px white;
+        text-shadow: 2px 2px 6px rgb(230, 73, 0);
+        font-size: 46px;
+    }
+    #email{
+        position: absolute ;
+        top: 93%;
+        left: 20%;
+        z-index: 100;
+        font-size: 40px;
+        width: 50%;
+        color: white;
+        text-shadow: 2px 2px 3px white;
+        font-family: 'press start 2p';
+    }
+    
+    #email a{
+        width: 50%;
+        text-decoration: none;
+        font-size: 24px;
+        color: white;
+    }
+}
+
+/* 1200 to 1300 */
+@media  screen and (min-width:1200px) and (max-width:1301px) {
+    body{
+        background-color: lightgrey;
+        position: relative;
+        height: 3440px;
+    }
+    
+    #nav2 ul{
+        display: flex;
+        width: 40vw;
+        justify-content: space-between;
+        
+    }
+    
+    /* about */
+    #about{
+        position: absolute;
+        z-index: 2;
+        top: 0%;
+        left: 0;
+        margin: 260px 0px 40px 55px;
+        font-family: 'Press Start 2P';
+        color: white;
+        text-shadow: 1px 1px 3px black;
+        -webkit-text-stroke: 0.4567px rgb(75, 28, 28);
+        
+    }
+    /* screen 2 */
+    .overlaytags{
+        position: absolute;
+        z-index: 101;
+        top: 30%;
+        left: 40%;
+        color: white;
+        font-size: 40px;
+        -webkit-text-stroke: 1.2px black;
+        text-shadow: 2px 2px 7px black;
+        font-family: 'Press start 2p';
+    }
+    .overlaytags p{
+        width: 50%;
+        color: white;
+        text-wrap: wrap;
+        font-size: 20px;
+        -webkit-text-stroke: 1px black;
+        text-shadow: 2px 2px 4px black;
+        font-family: 'Press start 2p';
+    }
+    
+
+    #screen{
+        position: absolute;
+        top: 28.8%;
+        left: 38%;
+        width: 36.5%;
+        height: 12.7%;
+        border-radius: 20px;
+    }
+
+    /* screen 3 */
+
+    #pdivs{
+        position: absolute;
+        display: flex;
+        width: 37%;
+        justify-content: space-between;
+        top: 58.3%;
+        left: 10%;
+        font-size: 50px;
+        font-family: 'press start 2p';
+        color: #BC13FE;
+        -webkit-text-stroke: 2px black;
+        text-shadow: 7px 5px 2px black;
+    }
+    #buttondiv{
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        top: 70%;
+        left: 12.5%;
+        width: 34%;
+    }
+    #buttondiv button{
+        width: 68px;
+        height: 70px;
+        border: 1px solid black;
+        background-color: transparent;
+        color: white;
+        font-family: 'press start 2p';
+        font-size: 20px;
+        text-shadow: 3px 3px 6px black;
+    }
+    #buttondiv button:hover{
+        width: 68px;
+        height: 70px;
+        background-color:#720d75 ;
+        color:white;
+        font-family: 'press start 2p';
+        font-size: 20px;
+        text-shadow: 1px 1px 3px black;
+    }
+    
+    /* screen 4 */
+    #contactinfos{
+        position: absolute;
+        top: 83%;
+        left: 16%;
+        color: transparent;
+        -webkit-text-stroke:2px white;
+        text-shadow: 2px 2px 6px rgb(230, 73, 0);
+        font-size: 43px;
+    }
+    #email{
+        position: absolute ;
+        top: 94%;
+        left: 20%;
+        z-index: 100;
+        font-size: 40px;
+        width: 50%;
+        color: white;
+        text-shadow: 2px 2px 3px white;
+        font-family: 'press start 2p';
+    }
+    
+    #email a{
+        width: 50%;
+        text-decoration: none;
+        font-size: 24px;
+        color: white;
+    }
+}
+
+/* 1100 to 1199 */
+@media  screen and (min-width:1100px) and (max-width:1199px) {
+    
+    #nav2 ul{
+        display: flex;
+        width: 40vw;
+        justify-content: space-between;
+        
+    }
+    
+    body{
+        background-color: lightgrey;
+        position: relative;
+        height: 3440px;
+    }
+    
+    /* about */
+    #about{
+        position: absolute;
+        z-index: 2;
+        top: 0%;
+        left: 0;
+        margin: 260px 0px 40px 55px;
+        font-family: 'Press Start 2P';
+        color: white;
+        text-shadow: 1px 1px 3px black;
+        -webkit-text-stroke: 0.4567px rgb(75, 28, 28);
+        
+    }
+    /* screen 2 */
+    .overlaytags{
+        position: absolute;
+        z-index: 101;
+        top: 30%;
+        left: 40%;
+        color: white;
+        font-size: 40px;
+        -webkit-text-stroke: 1.2px black;
+        text-shadow: 2px 2px 7px black;
+        font-family: 'Press start 2p';
+    }
+    .overlaytags p{
+        width: 50%;
+        color: white;
+        text-wrap: wrap;
+        font-size: 20px;
+        -webkit-text-stroke: 1px black;
+        text-shadow: 2px 2px 4px black;
+        font-family: 'Press start 2p';
+    }
+    
+
+    #screen{
+        position: absolute;
+        top: 28.8%;
+        left: 38%;
+        width: 36.5%;
+        height: 12.7%;
+        border-radius: 20px;
+    }
+
+    /* screen 3 */
+
+    #pdivs{
+        position: absolute;
+        display: flex;
+        width: 37%;
+        justify-content: space-between;
+        top: 58.3%;
+        left: 10%;
+        font-size: 50px;
+        font-family: 'press start 2p';
+        color: #BC13FE;
+        -webkit-text-stroke: 2px black;
+        text-shadow: 7px 5px 2px black;
+    }
+    #buttondiv{
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        top: 70%;
+        left: 12.5%;
+        width: 34%;
+    }
+    #buttondiv button{
+        width: 61px;
+        height: 70px;
+        border: 1px solid black;
+        background-color: transparent;
+        color: white;
+        font-family: 'press start 2p';
+        font-size: 20px;
+        text-shadow: 3px 3px 6px black;
+    }
+    #buttondiv button:hover{
+        width: 61px;
+        height: 70px;
+        background-color:#720d75 ;
+        color:white;
+        font-family: 'press start 2p';
+        font-size: 20px;
+        text-shadow: 1px 1px 3px black;
+    }
+    
+    /* screen 4 */
+    #contactinfos{
+        position: absolute;
+        top: 83%;
+        left: 15%;
+        color: transparent;
+        -webkit-text-stroke:2px white;
+        text-shadow: 2px 2px 6px rgb(230, 73, 0);
+        font-size: 40px;
+    }
+    #email{
+        position: absolute ;
+        top: 94%;
+        left: 20%;
+        z-index: 100;
+        font-size: 35px;
+        width: 50%;
+        color: white;
+        text-shadow: 2px 2px 3px white;
+        font-family: 'press start 2p';
+    }
+    
+    #email a{
+        width: 50%;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+    }
+}
+
+/* 1100 to 1199 */
+@media  screen and (min-width:1000px) and (max-width:1099px) {
+    
+#headingtitle{
+    font-size: 40px;
+}
+
+#paratitle{
+    font-size: 18px;
+}
+
+/* button in my info and its hover*/
+#btnheading{
+    font-size: 17px;
+    border: 2px  solid white;
+    color: white;
+    font-family: 'press Start 2p';
+    background-color: transparent;
+    padding: 18px;
+    text-shadow: 3px 3px 10px black;
+}
+
+#btnheading:hover{
+    font-size: 17px;
+    border: 2px  solid black;
+    color: black;
+    font-family: 'press Start 2p';
+    background-color: white;
+    padding: 18px;
+    text-shadow: 3px 3px 10px black;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+    
+    #nav2 ul{
+        display: flex;
+        width: 40vw;
+        justify-content: space-between;
+        
+    }
+    
+    body{
+        background-color: lightgrey;
+        position: relative;
+        height: 3440px;
+    }
+    
+    /* about */
+    #about{
+        position: absolute;
+        z-index: 2;
+        top: 0%;
+        left: 0;
+        margin: 260px 0px 40px 55px;
+        font-family: 'Press Start 2P';
+        color: white;
+        text-shadow: 1px 1px 3px black;
+        -webkit-text-stroke: 0.4567px rgb(75, 28, 28);
+        
+    }
+    /* screen 2 */
+    .overlaytags{
+        position: absolute;
+        z-index: 101;
+        top: 30%;
+        left: 40%;
+        color: white;
+        font-size: 35px;
+        -webkit-text-stroke: 1.2px black;
+        text-shadow: 2px 2px 7px black;
+        font-family: 'Press start 2p';
+    }
+    .overlaytags p{
+        width: 50%;
+        color: white;
+        text-wrap: wrap;
+        font-size: 18px;
+        -webkit-text-stroke: 1px black;
+        text-shadow: 2px 2px 4px black;
+        font-family: 'Press start 2p';
+    }
+    
+
+    #screen{
+        position: absolute;
+        top: 28.8%;
+        left: 38%;
+        width: 36.5%;
+        height: 12.7%;
+        border-radius: 20px;
+    }
+
+    /* screen 3 */
+
+    #pdivs{
+        position: absolute;
+        display: flex;
+        width: 39%;
+        justify-content: space-between;
+        top: 58.3%;
+        left: 9%;
+        font-size: 40px;
+        font-family: 'press start 2p';
+        color: #BC13FE;
+        -webkit-text-stroke: 2px black;
+        text-shadow: 7px 5px 2px black;
+    }
+    #buttondiv{
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        top: 70%;
+        left: 12.5%;
+        width: 34%;
+    }
+    #buttondiv button{
+        width: 51px;
+        height: 70px;
+        border: 1px solid black;
+        background-color: transparent;
+        color: white;
+        font-family: 'press start 2p';
+        font-size: 20px;
+        text-shadow: 3px 3px 6px black;
+    }
+    #buttondiv button:hover{
+        width: 51px;
+        height: 70px;
+        background-color:#720d75 ;
+        color:white;
+        font-family: 'press start 2p';
+        font-size: 20px;
+        text-shadow: 1px 1px 3px black;
+    }
+    
+    /* screen 4 */
+    #contactinfos{
+        position: absolute;
+        top: 83%;
+        left: 15%;
+        color: transparent;
+        -webkit-text-stroke:2px white;
+        text-shadow: 2px 2px 6px rgb(230, 73, 0);
+        font-size: 35px;
+    }
+    #email{
+        position: absolute ;
+        top: 94%;
+        left: 20%;
+        z-index: 100;
+        font-size: 30px;
+        width: 50%;
+        color: white;
+        text-shadow: 2px 2px 3px white;
+        font-family: 'press start 2p';
+    }
+    
+    #email a{
+        width: 50%;
+        text-decoration: none;
+        font-size: 17px;
+        color: white;
+    }
+}
+
+
+/* 1100 to 1199 */
+@media  screen and (min-width:1442px) and (max-width:1630px) {
+    
+    #headingtitle{
+        font-size: 40px;
+    }
+    
+    #paratitle{
+        font-size: 25px;
+    }
+    
+    /* button in my info and its hover*/
+    #btnheading{
+        font-size: 17px;
+        border: 2px  solid white;
+        color: white;
+        font-family: 'press Start 2p';
+        background-color: transparent;
+        padding: 18px;
+        text-shadow: 3px 3px 10px black;
+    }
+    
+    #btnheading:hover{
+        font-size: 17px;
+        border: 2px  solid black;
+        color: black;
+        font-family: 'press Start 2p';
+        background-color: white;
+        padding: 18px;
+        text-shadow: 3px 3px 10px black;
+        transition: 0.6s;
+        cursor: pointer;
+    }
+    
+        
+        #nav2 ul{
+            display: flex;
+            width: 30vw;
+            justify-content: space-between;
+            
+        }
+        
+        body{
+            background-color: lightgrey;
+            position: relative;
+            height: 3440px;
+        }
+        
+        /* about */
+        #about{
+            position: absolute;
+            z-index: 2;
+            top: 0%;
+            left: 0;
+            margin: 260px 0px 40px 55px;
+            font-family: 'Press Start 2P';
+            color: white;
+            text-shadow: 1px 1px 3px black;
+            -webkit-text-stroke: 0.4567px rgb(75, 28, 28);
+            
+        }
+        /* screen 2 */
+        .overlaytags{
+            position: absolute;
+            z-index: 101;
+            top: 30%;
+            left: 40%;
+            color: white;
+            font-size: 45px;
+            -webkit-text-stroke: 1.2px black;
+            text-shadow: 2px 2px 7px black;
+            font-family: 'Press start 2p';
+        }
+        .overlaytags p{
+            width: 50%;
+            color: white;
+            text-wrap: wrap;
+            font-size: 22px;
+            -webkit-text-stroke: 1px black;
+            text-shadow: 2px 2px 4px black;
+            font-family: 'Press start 2p';
+        }
+        
+    
+        #screen{
+            position: absolute;
+            top: 28.8%;
+            left: 38%;
+            width: 36.5%;
+            height: 12.7%;
+            border-radius: 20px;
+        }
+    
+        /* screen 3 */
+    
+        #pdivs{
+            position: absolute;
+            display: flex;
+            width: 39%;
+            justify-content: space-between;
+            top: 58.3%;
+            left: 9%;
+            font-size: 40px;
+            font-family: 'press start 2p';
+            color: #BC13FE;
+            -webkit-text-stroke: 2px black;
+            text-shadow: 7px 5px 2px black;
+        }
+        #buttondiv{
+            position: absolute;
+            display: flex;
+            justify-content: space-between;
+            top: 70%;
+            left: 12.5%;
+            width: 34%;
+        }
+        #buttondiv button{
+            width: 81px;
+            height: 70px;
+            border: 1px solid black;
+            background-color: transparent;
+            color: white;
+            font-family: 'press start 2p';
+            font-size: 20px;
+            text-shadow: 3px 3px 6px black;
+        }
+        #buttondiv button:hover{
+            width: 81px;
+            height: 70px;
+            background-color:#720d75 ;
+            color:white;
+            font-family: 'press start 2p';
+            font-size: 20px;
+            text-shadow: 1px 1px 3px black;
+        }
+        
+        /* screen 4 */
+        #contactinfos{
+            position: absolute;
+            top: 82.5%;
+            left: 16%;
+            color: transparent;
+            -webkit-text-stroke:2px white;
+            text-shadow: 2px 2px 6px rgb(230, 73, 0);
+            font-size: 52px;
+        }
+        #email{
+            position: absolute ;
+            top: 93.5%;
+            left: 20%;
+            z-index: 100;
+            font-size: 40px;
+            width: 50%;
+            color: white;
+            text-shadow: 2px 2px 3px white;
+            font-family: 'press start 2p';
+        }
+        
+        #email a{
+            width: 50%;
+            text-decoration: none;
+            font-size: 28px;
+            color: white;
+        }
+    }
