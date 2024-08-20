@@ -302,14 +302,17 @@ video{
     height: 100vh;
 }
 
-#footercontainer img{
+#footercontainer video{
     width: 100%;
-    height: 99vh;
+    height: 99%;
 }
+
+
+
 
 #contactinfos{
     position: absolute;
-    top: 82%;
+    top: 80%;
     left: 19%;
     color: transparent;
     -webkit-text-stroke:2px white;
@@ -319,7 +322,7 @@ video{
 
 #email{
     position: absolute ;
-    top: 93%;
+    top: 95%;
     left: 20%;
     z-index: 100;
     font-size: 50px;
