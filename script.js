@@ -25,31 +25,15 @@ window.addEventListener('scroll',()=>{
 });
 
 
-// popups
-
-// document.getElementById('btn1').addEventListener('click',function() {
-//     let p1 = document.querySelector('.project1');
-//     p1.style.left='180%';
-//     if(p1.style.left==='180%'){
-//         p1.classList.add('open-project1');
-//         p1.style.top='71.5%'
-//         p1.style.left='258%';
-//     }
-//     else if(p1.style.left==='258%'){
-//         p1.classList.remove('open-project1');
-//         p1.style.top='69.5%'
-//         p1.style.left='180%';
-//     }
-// });
 
 
-
+// popop
 let isOpen1 = false;
 document.getElementById('btn1').addEventListener('click', function() {
     let p1 = document.querySelector('.project1');
     
     if (!isOpen1) { // If the element is not open
-        p1.style.top = '61%';
+        p1.style.top = '59%';
         p1.style.left = '51%';
         p1.style.visibility='visible'
         p1.style.transform = 'scale(1)'
@@ -66,7 +50,7 @@ document.getElementById('btn2').addEventListener('click', function() {
     let p2 = document.querySelector('.project2');
     
     if (!isOpen2) { // If the element is not open
-        p2.style.top = '61%';
+        p2.style.top = '59%';
         p2.style.left = '51%';
         p2.style.visibility='visible'
         p2.style.transform = 'scale(1)'
@@ -82,7 +66,7 @@ document.getElementById('btn3').addEventListener('click', function() {
     let p3 = document.querySelector('.project3');
     
     if (!isOpen3) { // If the element is not open
-        p3.style.top = '61%';
+        p3.style.top = '59%';
         p3.style.left = '51%';
         p3.style.visibility='visible'
         p3.style.transform = 'scale(1)'
@@ -104,7 +88,7 @@ if (window1.matches) {
         let p1 = document.querySelector('.project1');
         
         if (!isOpen1) { // If the element is not open
-            p1.style.top = '60%';
+            p1.style.top = '58%';
             p1.style.left = '51%';
             p1.style.visibility='visible'
             p1.style.transform = 'scale(1)'
@@ -120,7 +104,7 @@ document.getElementById('btn2').addEventListener('click', function() {
     let p2 = document.querySelector('.project2');
     
     if (!isOpen2) { // If the element is not open
-        p2.style.top = '60%';
+        p2.style.top = '58%';
         p2.style.left = '51%';
         p2.style.visibility='visible'
         p2.style.transform = 'scale(1)'
@@ -136,7 +120,7 @@ document.getElementById('btn3').addEventListener('click', function() {
     let p3 = document.querySelector('.project3');
     
     if (!isOpen3) { // If the element is not open
-        p3.style.top = '60%';
+        p3.style.top = '58%';
         p3.style.left = '51%';
         p3.style.visibility='visible'
         p3.style.transform = 'scale(1)'
